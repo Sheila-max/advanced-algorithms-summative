@@ -56,6 +56,6 @@ for i, j in zip(range(0), [[num_of_c,2], [arr_len, 2]]):
         # Add alphabet from the array with the decrypted msg
         for alphabet in msg2:
             decrypt += alphabet 
-        print( 'This is the decrypted message: '+ decrypt)
+        print( 'This is the decrypted message: ', decrypt)
 
     decrypt_message()
