@@ -48,10 +48,10 @@ for i, j in zip(range(0), [[num_of_c,2], [arr_len, 2]]):
         msg_length= len(msg)
         decrypt= ''
 
-        for i,j,j,d in zip(range(0,arr_len,2),range(1,arr_len1,2), range(0,msg_length,2),range(1,msg_length,2)):
+        for i,j,k,d in zip(range(0,arr_len,2),range(1,arr_len1,2), range(0,msg_length,2),range(1,msg_length,2)):
 
-            msg2.insert(z, row1[i]) #inserting only the letters from array1 into an array skipping one space, and starting from index 0
-            msg2.insert(a, row2[j])#inserting only the letters from array2 into the  same  array skipping one space, and starting from index 1
+            msg2.insert(k, row1[i]) #inserting only the letters from array1 into an array skipping one space, and starting from index 0
+            msg2.insert(d, row2[j])#inserting only the letters from array2 into the  same  array skipping one space, and starting from index 1
 
         # Add alphabet from the array with the decrypted msg
         for alphabet in msg2:
