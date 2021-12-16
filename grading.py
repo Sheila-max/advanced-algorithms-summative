@@ -1,8 +1,5 @@
 # Grade rounding function
-
 import sys
-# from array import * 
-# import math 
 
 #Function for grading students with the grades parameter
 def gradingStudents(grades):
